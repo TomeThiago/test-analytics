@@ -1,0 +1,15 @@
+export enum EventColorEnum {
+  'Bocejo' = '#ffc400',
+  'Celular' = '#9467BD',
+  'Fumando' = '#BEBEBE',
+  'Oclusão' = '#000000',
+  'Olhando para baixo N1' = '#61a0a8',
+  'Olhando para baixo N2' = '#2f4554',
+  'Sonolência N1' = '#FF8C00',
+  'Sonolência N2' = '#c23531',
+  'Face missing' = '#CFCFCF',
+  'Sem cinto' = '#8BE08F',
+  'Consumo alimento' = '#DE8A8A',
+  'Fone de ouvido' = '#C1E08B',
+  'Óculos de sol' = '#D4F9C6',
+}

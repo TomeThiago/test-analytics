@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.content {  
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1fr, 12);
+  grid-template-rows: repeat(1fr, 12);
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "sidebar sidebar header header header header header header header header header header"
+    "sidebar sidebar header header header header header header header header header header"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar main main main main main main main main main main"
+    "sidebar sidebar footer footer footer footer footer footer footer footer footer footer"
+    "sidebar sidebar footer footer footer footer footer footer footer footer footer footer";
+}

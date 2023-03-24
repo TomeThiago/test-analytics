@@ -1,0 +1,5 @@
+.header { 
+  grid-area: header;
+  background: #343a40;
+  border-bottom: 1px solid #4b545c;
+}
